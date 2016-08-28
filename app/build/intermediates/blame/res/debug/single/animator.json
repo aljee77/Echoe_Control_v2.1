@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadein.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\animator\\fadein.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadeout.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\animator\\fadeout.xml"
+    }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="AutoCallRecord">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Incoming auto call record" android:key="auto_call_record_in" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Outgoing auto call record" android:key="auto_call_record_out" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other Mods">
+        <PreferenceScreen android:title="Music/Volume Skip Mod" android:summary="Use Volume Buttons to skip tracks when screen is off">
+            <PreferenceCategory android:title="Music Control" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Music Control" android:key="volbtn_music_controls" android:defaultValue="false" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/volbtn_timeout_entries" android:title="Button Delay" android:key="volbtn_timeout" android:summary="%s" android:dependency="volbtn_music_controls" android:defaultValue="350" android:entryValues="@array/volbtn_timeout_values" />
+        </PreferenceScreen>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Email Exchange Security" android:key="email_security" android:defaultValue="true" android:summaryOn="Email Security is Disabled" android:summaryOff="Email Security is Enabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="TW Launcher Mods" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Text's color" android:key="launcher_icons_text_color" android:summary="Choose color" android:defaultValue="\#ffffffff" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Widget Text's color" android:key="launcher_widgets_text_color" android:summary="Choose color" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.sec.android.app.launcher" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Wallpaper scrolling " android:key="toggle_scrolling_wallpaper" android:summaryOn="disabled" android:summaryOff="enabled" android:defaultValue="false" />
+    <PreferenceCategory android:title="Settings Mods">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:defaultValue="true" android:key="default_app_selection_option" android:summaryOff="Hide" android:summaryOn="Show" android:title="Button Only once/Always"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Hide QuickSettings Favorites" android:key="hide_qs_favorites" android:defaultValue="false" android:summaryOn="Hidden" android:summaryOff="Shown" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/dashboard_num_columns_entries" android:title="Number of Columns in Settings" android:key="phronesis_no_columns" android:entryValues="@array/dashboard_num_columns_values" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Settings Favorites Text Color" android:key="favs_text_color" android:summary="Choose favorites text color" android:defaultValue="\#ff000000" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Settings Sections Text Color" android:key="settings_sections_text_color" android:summary="Choose Sections text color" android:defaultValue="\#ff000000" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+<resources>
+
+
+    <!--Contact info arrays-->
+
+    <!--In this array you will put the icons for contact information,
+    for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
+    <array name="about_contact_us_drawables">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
+    <string-array name="about_contact_us_text">
+        <item>Echoe Forum</item>
+        <item>Donation</item>
+    </string-array>
+
+    <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
+    <string-array name="about_contact_us_links" translatable="false">
+        <item>http://www.echoerom.com/</item>
+        <item>https://goo.gl/VQvYUN/</item>
+    </string-array>
+
+
+
+    <!--Team info arrays-->
+    <array name="about_team_drawables">
+        <item>@drawable/icon_7</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
+    </array>
+    <string-array name="about_team_names">
+        <item>Kyri - Echoe Roms Creator, Chief Developer</item>
+        <item>Acer4605, YukiChan456, Stoerte, sanoc69,</item>
+        <item>Darkwing_X, jds3118, 4aces, roy72,</item>
+        <item>Speedwayfan75, aaatso, Misk77, bvahedy,</item>
+        <item>Kdio, thereassaad, gharrington, Simplycity,</item>
+        <item>skeamznz, Graeme Duncan, s7freak, aljee77</item>
+    </string-array>
+    <string-array name="about_team_links" translatable="false">
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+    </string-array>
+
+
+
+    <!--Credits and thanks info arrays-->
+    <array name="about_credits_drawables">
+        <item>@drawable/icon_7</item>
+        <item>@drawable/icon_3</item>
+    </array>
+    <string-array name="about_credits_names">
+        <item>Kyri - for the great ROM and kernel</item>
+        <item>daxgirl - for this amazing app</item>
+    </string-array>
+    <string-array name="about_credits_links" translatable="false">
+        <item>http://www.echoerom.com/</item>
+        <item>http://forum.xda-developers.com/android/general/source-code-6thgear-romcontrol-v2-devs-t3411916/</item>
+    </string-array>
+</resources>

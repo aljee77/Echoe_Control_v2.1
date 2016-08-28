@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\framework_prefs.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\xml\\framework_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\useful_apps_prefs.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\xml\\useful_apps_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\ui_prefs.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\xml\\ui_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\phone_prefs.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\xml\\phone_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\notification_panel_prefs.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\xml\\notification_panel_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\lockscreen_prefs.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\xml\\lockscreen_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\custom_backgrounds_prefs.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\NewProjekt\\Echoe_Control_v2.1\\app\\src\\main\\res\\xml\\custom_backgrounds_prefs.xml"
+    }
+]
